@@ -1,0 +1,12 @@
+set output 'epw_band.png' #直接输出png图片
+unset key #设置不需要图例
+set title 'epw band' #设置图片标题
+set ylabe "energy(eV)" #设置y轴标题
+set xrange [0:3.10594] #设置x轴范围
+set yrange [9.09670:31.89287] #设置y轴范围
+set arrow from  0.61861,   9.09670 to  0.61861,  31.89287 nohead #画分隔线
+set arrow from  1.22214,   9.09670 to  1.22214,  31.89287 nohead
+set arrow from  2.50241,   9.09670 to  2.50241,  31.89287 nohead
+set xtics ("G"  0.00000,"Y"  0.61861,"C"  1.22214,"E"  2.50241,"A"  3.10594) #设置x轴刻度及对应名称
+set ytics 5 #设置y轴主刻度宽度
+plot "hfo2_band.dat" w l lt 2 #使用线(w l)画出图像，线的类型(lt)为绿色(2)，线的宽度(lw)为2

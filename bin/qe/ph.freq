@@ -1,0 +1,9 @@
+set output 'ph_freq.png' #直接输出png图片
+unset key #设置不需要图例
+set title 'ph freq' #设置图片标题
+set ylabe "frequency(cm^-1)" #设置y轴标题
+set xrange [0: 2.5466] #设置x轴范围
+set yrange [-100: 800] #设置y轴范围
+set xtics ("G" 0.0000, "Y" 0.5072, "C" 1.0020, "E" 2.0517, "A" 2.5466 ) #设置x轴刻度及对应名称
+set ytics 100 #设置y轴主刻度宽度
+plot "hfo2.freq.dat" w l lt 2 #使用线(w l)画出图像，线的类型(lt)为绿色(2)，线的宽度(lw)为2

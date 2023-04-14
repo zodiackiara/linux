@@ -1,0 +1,28 @@
+!前置操作：利用vasp结构优化后的POSCAR-relax结构，使用qe input generator工具生成scf输入文件；手动复制对应赝势文件
+!复制输入-qe input generator
+!手动输入-manual input
+!元素种类和原子位置中，按照字母顺序输入元素，统一元素顺序和位置，避免epw计算失败，方便其他脚本读取
+!bravais lattice type =  !复制输入布拉维格子类型，注意小写，方便后续计算读取-qe seek kpath!
+
+&control
+    calculation = 'scf' !自洽计算
+    outdir = './out' !输出文件在out文件夹
+	prefix = '' !文件名-manual input!
+	pseudo_dir = './' !赝势文件在当前文件夹
+	verbosity = 'high' !输出详细信息
+/
+&system
+    ecutwfc =  !增大波函数能量上限，模守恒赝势的ecutrho默认值为4*ecutwfc-qe input!
+    ibrav = 0 !不指定晶体结构
+	nat =  !晶胞中原子数-qe input!
+    ntyp =  !晶胞中原子类型数-qe input!
+    occupations = 'fixed' !半导体的占据固定
+/
+&electrons
+    conv_thr = 1d-10 !提升自洽计算收敛精度
+    mixing_beta = 0.4 !减小电荷密度混合因子保证收敛
+/    
+ATOMIC_SPECIES !元素 质量 赝势-按照字母顺序排列-qe input + manual input!
+CELL_PARAMETERS angstrom !晶胞参数-qe input!
+ATOMIC_POSITIONS crystal !元素 原子位置-按照字母顺序排列-qe input!
+K_POINTS automatic !vaspkit-增大K点网格密度-K_POINTS 0 0 0-manual input!

@@ -1,55 +1,3 @@
-cd /usr/bin
-#1660055648
-ls-al
-#1660055652
-ls -al
-#1660116148
-python
-#1660116151
-python3
-#1660010498
-ca
-#1660010507
-conda deactivate
-#1660010509
-git
-#1660010530
-git --version
-#1660010673
-apt-get upgrade git
-#1660010689
-apt list --upgradable
-#1660010732
-git config --global user.name "zodiackiara"
-#1660010795
-git config --global user.email "zodiackiara@163.com"
-#1660011086
-git
-#1660011109
-ssh-keygen -t rsa -C "zodiackiara@163.com"
-#1660011152
-cat ~/.ssh/id_rsa.pub
-#1660011285
-ssh-keygen -t rsa
-#1660011301
-cat ~/.ssh/id_rsa.pub
-#1660011333
-ssh-keygen -t rsa -C "zodiackiara@163.com"
-#1660011339
-cat ~/.ssh/id_rsa.pub
-#1660020740
-ssh -T git@github.com
-#1660020803
-git clone git@github.com:zodiackiara/Linux.git
-#1660020900
-pwd
-#1660020951
-git add.
-#1660020957
-git add .
-#1660020971
-git commit -m 'update'
-#1660020995
 git push
 #1660021615
 cd vasp/
@@ -3986,3 +3934,55 @@ git branch -M main
 git remote add origin git@github.com:zodiackiara/linux.git
 #1681478967
 git push -u origin main
+#1681479342
+git config --global user.name "zodiackiara"
+#1681479357
+git config --global user.email "zodiackiara@163.com"
+#1681479363
+ssh-keygen -t rsa -C "zodiackiara@163.com"
+#1681479539
+ssh -T git@github.com
+#1681479592
+git init
+#1681479600
+git add bin/
+#1681479634
+git branch -M main
+#1681479659
+git branch -M master
+#1681479734
+git remote add origin git@github.com:zodiackiara/linux.git
+#1681479760
+git push -u origin master
+#1681479900
+git remote rm origin
+#1681479916
+git remote -v
+#1681479921
+git remote add origin git@github.com:zodiackiara/linux.git
+#1681479934
+git branch -M master
+#1681479942
+git push -u origin master
+#1681480028
+git init
+#1681480037
+git add bin/
+#1681480043
+git commit -m "first commit"
+#1681480069
+git remote -v
+#1681480072
+git push -u origin master
+#1681480500
+git add vasp
+#1681480506
+git commit -m 'update'
+#1681480534
+git push origin master
+#1681480562
+git add .
+#1681480569
+git commit -m 'update'
+#1681480576
+git push origin master

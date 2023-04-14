@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///root/guide/1526655.cif" added="2022-11-11T13:37:16.092051Z" modified="2022-11-11T13:37:16.092058Z" visited="2022-11-11T13:37:16.092052Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="VESTA-gui" exec="&apos;VESTA-gui %u&apos;" modified="2022-11-11T13:37:16.092054Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/guide/1526655.cube" added="2022-11-11T13:38:11.983129Z" modified="2022-11-11T13:38:11.983132Z" visited="2022-11-11T13:38:11.983129Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="VESTA-gui" exec="&apos;VESTA-gui %u&apos;" modified="2022-11-11T13:38:11.983130Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/guide/1526655.cube.vasp" added="2022-11-11T13:39:19.386467Z" modified="2022-11-11T13:39:19.386474Z" visited="2022-11-11T13:39:19.386469Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="VESTA-gui" exec="&apos;VESTA-gui %u&apos;" modified="2022-11-11T13:39:19.386471Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/guide/SiC.cif" added="2022-11-11T13:42:21.794935Z" modified="2022-11-11T13:42:21.794941Z" visited="2022-11-11T13:42:21.794936Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="VESTA-gui" exec="&apos;VESTA-gui %u&apos;" modified="2022-11-11T13:42:21.794938Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///root/guide/SiC.cube" added="2022-11-11T13:42:30.043052Z" modified="2022-11-11T13:42:30.043056Z" visited="2022-11-11T13:42:30.043053Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="VESTA-gui" exec="&apos;VESTA-gui %u&apos;" modified="2022-11-11T13:42:30.043054Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

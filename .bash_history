@@ -1,13 +1,3 @@
-git push
-#1660021615
-cd vasp/
-#1660021616
-ls
-#1660021630
-ssh -T git@github.com
-#1660021658
-git@github.com:zodiackiara/Vasp.git
-#1660021670
 git clone git@github.com:zodiackiara/Vasp.git
 #1660021704
 git add .
@@ -3985,4 +3975,14 @@ git add .
 #1681480569
 git commit -m 'update'
 #1681480576
+git push origin master
+#1681481587
+git add .
+#1681481622
+git commit -m 'update'
+#1681481652
+git push origin master
+#1681481687
+git remote -v
+#1681481839
 git push origin master
